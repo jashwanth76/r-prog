@@ -1,0 +1,10 @@
+data("airquality")
+> 
+> 
+> 
+> print(airquality)
+
+install.packages("reshape")
+
+
+airquality_melted <- melt(airquality, id.vars = c("Month", "Day"))
